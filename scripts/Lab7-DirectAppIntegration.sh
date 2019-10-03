@@ -3,4 +3,4 @@ echo "Run the setup script"
 
 echo ""
 echo "Start the Vault Agent"
-vault agent -config=agent-config.hcl -log-level=debug
+vault agent -config=/workstation/vault101/agent-config.hcl -log-level=debug

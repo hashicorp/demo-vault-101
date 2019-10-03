@@ -7,7 +7,7 @@ vault write database/config/postgresql plugin_name=postgresql-database-plugin al
 
 echo ""
 echo "vault write database/roles/readonly db_name=postgresql creation_statements=@readonly.sql default_ttl=1h max_ttl=24h"
-vault write database/roles/readonly db_name=postgresql creation_statements=@readonly.sql default_ttl=1h max_ttl=24h
+vault write database/roles/readonly db_name=postgresql creation_statements=@/workstation/vault101/readonly.sql default_ttl=1h max_ttl=24h
 
 echo ""
 echo "vault read database/creds/readonly"

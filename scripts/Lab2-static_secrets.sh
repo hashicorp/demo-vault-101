@@ -34,7 +34,7 @@ echo "vault kv get secret/training"
 vault kv get secret/training
 
 echo ""
-echo "vault kv put secret/company @data.json"
+echo "vault kv put secret/company @/workstation/vault101/data.json"
 vault kv put secret/company @data.json
 
 echo ""

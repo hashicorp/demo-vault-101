@@ -17,6 +17,6 @@ POL
 
 # Setup approle
 vault auth enable approle
-vault write auth/approle/role/apps policies="db_readonly"
+vault write auth/approle/role/apps policies="db_readonly" token_ttl=24h
 echo $(vault read -format=json auth/approle/role/apps/role-id | jq  -r '.data.role_id') > roleID
 echo $(vault write -f -format=json auth/approle/role/apps/secret-id | jq -r '.data.secret_id') > secretID

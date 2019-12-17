@@ -32,5 +32,5 @@ vault {
 
 template {
   source      = "/workstation/vault101/config.yml.tpl"
-  destination = "/workstation/vault101/config-2.yml"
+  destination = "/workstation/vault101/config-agent.yml"
 }

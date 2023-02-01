@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 echo "Run the setup script"
 ./workstation/vault101/setup-approle.sh
 

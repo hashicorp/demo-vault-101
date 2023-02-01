@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 echo "Enable 'transit' secrets engine"
 vault secrets enable transit
 

@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 echo "vault token create -policy=default"
 vault token create -policy=default -format=json | jq -r ".auth.client_token" > token.txt
 

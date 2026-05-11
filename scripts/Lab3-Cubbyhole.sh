@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 echo "vault token create -policy=default"
 vault token create -policy=default -format=json | jq -r ".auth.client_token" > token.txt
 

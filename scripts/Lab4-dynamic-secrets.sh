@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 echo "vault secrets enable database"
 vault secrets enable database
 

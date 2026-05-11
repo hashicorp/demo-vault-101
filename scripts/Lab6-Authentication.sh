@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 echo ""
 echo "Working with Username & Password auth method"
 echo "vault auth list"

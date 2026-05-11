@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 echo "Enable 'transit' secrets engine"
 vault secrets enable transit
 

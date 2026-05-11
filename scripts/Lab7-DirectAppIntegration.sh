@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 echo "Run the setup script"
 ./workstation/vault101/setup-approle.sh
 

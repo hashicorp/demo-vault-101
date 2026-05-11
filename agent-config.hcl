@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 pid_file = "./pidfile"
 
 auto_auth {

@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 vault login root
 
 # Create db_readonly policy

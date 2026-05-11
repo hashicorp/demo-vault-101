@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 echo "vault login root"
 vault login root
 
